@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat:400,700&display=swap&subset=cyrillic');
+
+.caveat {
+  font-family: 'Caveat', cursive;
+}
+
+@media (min-width: 576px) {
+  .card-columns {
+      column-count: 1;
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-columns {
+      column-count: 2;
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+  }
+}
+
+@media (min-width: 992px) {
+  .card-columns {
+      column-count: 3;
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+  }
+}
+
+header {
+  padding: 0 !important;
+}
+
+.jumbotron {
+  height: 100%;
+  color: white;
+  background: url(../img/photo/stars.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+
+
+.social {
+  color: white !important;
+  font-size: 2rem;
+}
+
