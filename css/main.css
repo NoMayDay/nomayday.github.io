@@ -35,16 +35,14 @@ header {
 .jumbotron {
   height: 100%;
   color: white;
-  background: url(../img/photo/stars.jpg);
+  background: url(../img/photo/green.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .jumbotron p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
-
-
 
 .social {
   color: white !important;
