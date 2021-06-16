@@ -4,30 +4,6 @@
   font-family: 'Caveat', cursive;
 }
 
-@media (min-width: 576px) {
-  .card-columns {
-      column-count: 1;
-      -webkit-column-count: 1;
-      -moz-column-count: 1;
-  }
-}
-
-@media (min-width: 768px) {
-  .card-columns {
-      column-count: 2;
-      -webkit-column-count: 2;
-      -moz-column-count: 2;
-  }
-}
-
-@media (min-width: 992px) {
-  .card-columns {
-      column-count: 3;
-      -webkit-column-count: 3;
-      -moz-column-count: 3;
-  }
-}
-
 header {
   padding: 0 !important;
 }
@@ -35,7 +11,7 @@ header {
 .jumbotron {
   height: 100%;
   color: white;
-  background: url(../img/photo/green.jpg);
+  background: url(../img/photo/nightsky1.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -48,4 +24,3 @@ header {
   color: white !important;
   font-size: 2rem;
 }
-
