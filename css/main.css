@@ -4,6 +4,10 @@
   font-family: 'Caveat', cursive;
 }
 
+.container {
+  max-width: 720px;
+}
+
 header {
   padding: 0 !important;
 }
